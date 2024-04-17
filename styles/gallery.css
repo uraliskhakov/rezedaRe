@@ -1,0 +1,260 @@
+.gallery {
+    position: relative;
+    height: 982px;  
+    margin: 0 auto;
+}
+
+.gallery__title-wrapper {   
+    position: absolute;
+    top: 5px;
+    z-index: 100;
+    width: 100%;
+}    
+
+.gallery__title {
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.gallery__text-wrapper {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+
+.gallery__text {
+    font-size: 25px;
+    line-height: 41px;
+    color: black;    
+}
+
+.gallery__slide {
+    margin: 0 auto;
+    position: absolute;
+    height: 980px;           
+    width: 100%;   
+    top: 105px;       
+    left: 0;
+    opacity: 0;
+}
+
+.gallery__slide-active {
+    opacity: 1;
+}
+
+.gallery__image {
+    
+    height: 100%;    
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery__prev {
+    border: none;
+    background: none;
+    width: 22px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.gallery__next {
+    border: none;
+    background: none;
+    width: 22px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.gallery__controls-wrapper {  
+    position: absolute;
+    bottom: 390px;
+    z-index: 100;
+    width: 100%;
+}
+
+.gallery__controls {
+    padding: 0  20px 0 20px;
+    display: flex;
+    gap: 14px;
+}
+
+.gallery__prev:hover,
+.gallery__next:hover {
+    opacity: 50%;
+}
+
+.gallery__prev {
+    left: 125px;
+    background-image: url('../gallery/arrow.png');
+    background-color: black;
+    border-radius: 5px;
+}
+
+.gallery__next {
+    left: 180px;
+    background-image: url('../gallery/arrow.png');
+    transform: rotate(180deg);
+    background-color: black;
+    border-radius: 5px;
+}
+
+@media (max-width: 1199px) {
+
+    .gallery {
+        width: 100%;
+        height: 615px;   
+    }
+
+    .gallery__slide {
+        height: 600px;           
+       
+    }
+
+    .gallery__title-wrapper {   
+        top: 35px;
+    }
+
+    .gallery__title {
+        margin-left: 37px; 
+        font-size: 20px;
+    }
+
+    .gallery__controls {
+        bottom: 152px;
+    }
+
+    .gallery__text-wrapper {
+        top: -40px;
+    }
+
+    .gallery__text {
+        margin-left: 37px; 
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .gallery__controls-wrapper {
+        bottom: 185px;
+    }
+
+    .gallery__controls {
+        margin-left: 0px; 
+    }
+}
+
+@media (max-width: 767px) {
+
+    .gallery {
+        height: 630px;  
+    }
+
+    .gallery__slide {
+        height: 582px;           
+       
+    }
+
+    .gallery__title-wrapper {   
+        top: 30px;
+    }
+
+    .gallery__title {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .gallery__text-wrapper {
+        bottom: 60px;
+    }
+
+    .gallery__text {
+        margin-left: 0px;
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+
+    .gallery__controls-wrapper {
+        bottom: 210px;
+        left: 0;
+        
+    }
+
+    .gallery__controls {
+        margin-left: 0px;
+        justify-content: space-between;
+        width: 100%; 
+                
+    }
+
+    .gallery__next,
+    .gallery__prev {
+        
+        width: 30px;
+        height: 30px;
+    }
+ 
+    .gallery__prev {
+        margin-left: -5px;
+        background-image: url('../gallery/arrow_phone.png');
+    }
+    
+    .gallery__next {
+        margin-right: -7px;
+        background-image: url('../gallery/arrow_phone.png');
+        transform: rotate(180deg);
+    }
+}
+
+@media (max-width: 480px) {
+
+    .gallery {
+        height: 390px;  
+    }
+
+    .gallery__slide {
+        height: 340px;           
+       
+    }
+
+    .gallery__controls-wrapper {
+        top: 70px;
+        left: 0;
+    }
+
+    .gallery__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .gallery__controls {
+        padding: 0;
+        display: flex;
+        gap: 14px;
+    }
+
+    .gallery__text-wrapper {
+        top: -80px;
+    }
+
+    .gallery__title-wrapper {   
+        top: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .gallery {
+        height: 260px;  
+    }
+
+    .gallery__slide {
+        height: 220px;           
+       
+    }
+}
+    

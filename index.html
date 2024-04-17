@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ru">
+        <head>
+        <meta charset="UTF-8">
+        <title>Bakirova</title>
+        <link rel="icon" href="resourses/favicon.jpg" type="image/jpg">
+        <link rel="stylesheet" href="reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        </head>
+    <body>
+        
+                <header>
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="logo/logo_hand_phone.png"/>
+                            <img
+                                class="logo"
+                                src="logo/logo_hand.png"
+                                alt="Логотип компании Бакирова"
+                            />
+                        </picture>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li>
+                                    <a class="nav__link" href="#about-us">обо мне</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#projects">диагностика</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#services">услуги</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#contacts">контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="burger__btn js-burger-btn"></button>
+                        <div class="burger js-burger">
+                            <div class="burger__content ">
+                                <img
+                                    class="burger__logo"
+                                    src="logo/logoRe.png"
+                                    alt="Логотип компании Бакирова"
+                                />
+                                <nav class="burger__nav">
+                                    <ul class="burger__navList">
+                                        <li>
+                                            <a class="burger__navItem" href="#about-us">обо мне</a>
+                                        </li>
+                                        <li>
+                                            <a class="burger__navItem" href="#projects">диагностика</a>
+                                        </li>
+                                        <li>
+                                            <a class="burger__navItem" href="#services">услуги</a>
+                                        </li>
+                                        <li>
+                                            <a class="burger__navItem" href="#contacts">контакты</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="burger__contacts js-burger__content">
+                                    <div class="burger__contactsTitle">для связи:</div>
+                                    <a  class="burger__contactsPhone" href="tel:+79876072546">+7 987 607 25 46 </a>
+                                    <div class="burger__contactsTg">
+                                        <a  
+                                        class="burger__contactsLink" 
+                                        target="_blank"
+                                        href="https://t.me/Bakirovarezeda">telegram Rezeda Bakirova</a>
+                                    </div>
+                                    <div class="burger__contactsMail">
+                                        <a  
+                                        class="burger__contactsLink" 
+                                        target="_blank"
+                                        href="mailto:saifullina.srr@yandex.ru">saifullina.srr@yandex.ru</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </header> 
+                
+            <main>
+                <div class="popup-box">
+                    
+                    <div class="js-popup popup">
+                        <div class="js-popup__content popup__content">
+                            <p class="popup__title">Заказать услугу</p>
+                            <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                            
+                            <div class="input_wrapper">
+                                <input
+                                    class="input"
+                                    type="text"
+                                    placeholder="Имя">
+                                <input
+                                    class="input"
+                                    type="text"
+                                    placeholder="Электронная почта">
+                                <input
+                                    class="input"
+                                    type="text"
+                                    placeholder="Номер телефона">
+                            </div>
+                            <button class="full-width-button full-width-button_inverted full-width-button_small">Отправить</button>
+                        <div class="js-popup__close-btn popup__close-btn"></div>
+                    </div>
+                </div>
+                <section class="intro">
+                    <div class="intro-inner">
+                        <div class="intro_text">
+                            <h1> Современные подходы по сохранению Вашего здоровья</h1>
+                        </div>
+
+                        <ul class="fotos">
+                            <li class="foto">
+                                <img
+                                class="foto_image"
+                                src="intro/Rezeda570.png" alt="Фото Резеда">
+                                
+                            </li>
+                            <li class="foto">
+                                <img
+                                class="foto_image"
+                                src="intro/massage_room570.png" alt="фото кабинета">
+                                
+                            </li>
+                        </ul>
+
+                      </div>
+                </section>
+
+                <section class="about-us">
+                            <h2 id="about-us">Обо мне</h2>
+                            <p class="about-us__text">Телесный терапевт. <br />Массажем занимаюсь более 20 лет.<br /> 
+                                Практикую массаж с элементами рефлексотерапии, кинезиотерапии.<br /> 
+                                Детский оздоровительный массаж с элементами гимнастики и логопедии(с рождения).<br />
+                                Работа с послеоперационными и посттравматическими рубцами.<br />
+                                Продолжаю заниматься диагностикой на аппаратах УЗИ.
+                            </p>
+                            <a class="about-us__button" href="#services">Посмотреть услуги</a>
+                </section>
+                <section class="section-long">
+                            <h2 id="projects">Диагностика</h2>
+                            <ul class="projects">
+                                <li class="project">
+                                    <picture>
+                                        <source
+                                            media="(max-width: 320px)"
+                                            srcset="diagnostics/IPOultrasound320.png"
+                                        />
+                                        <source
+                                            media="(max-width: 480px)"
+                                            srcset="diagnostics/IPOultrasound480.png"
+                                        />
+                                        <source
+                                            media="(max-width: 767px)"
+                                            srcset="diagnostics/IPOultrasound772.png"
+                                        />
+                                        <source
+                                            media="(max-width: 1199px)"
+                                            srcset="diagnostics/IPOultrasound1150.png"
+                                        />
+                                        <img
+                                            class="project_image"
+                                            src="diagnostics/IPOultrasound1150.png"
+                                            alt="ИПО Ультразвукове исследование"
+                                        />
+                                    </picture>
+                                    <h3 class="project__title">ИПО ГОУ ВПО БГМУ "Ультразвуковая диагностика</h3>
+                                    <a class=project_link href="">Подробнее →</a>
+                                </li>
+                                <li class="project">
+                                    <picture>
+                                        <source
+                                            media="(max-width: 320px)"
+                                            srcset="diagnostics/neirosonographia320.png"
+                                        />
+                                        <source
+                                            media="(max-width: 480px)"
+                                            srcset="diagnostics/neirosonographia480.png"
+                                        />
+                                        <source
+                                            media="(max-width: 767px)"
+                                            srcset="diagnostics/neirosonographia772.png"
+                                        />
+                                        <source
+                                            media="(max-width: 1199px)"
+                                            srcset="diagnostics/neirosonographia1150.png"
+                                        />
+                                        <img
+                                            class="project_image"
+                                            src="diagnostics/neirosonographia1150.png"
+                                            alt="Нейросонография"
+                                        />
+                                    </picture>
+                                    <h3 class="project__title">Медтрейд "Нейросонография с курсом ультразвуковой диагностики тазобедренного сустава у детей</h3>
+                                    <a class=project_link href="">Подробнее →</a>
+                                </li>
+                                <li class="project">
+                                    <picture>
+                                        <source
+                                            media="(max-width: 320px)"
+                                            srcset="diagnostics/ultra_surface organs320.png"
+                                        />
+                                        <source
+                                            media="(max-width: 480px)"
+                                            srcset="diagnostics/ultra_surface organs480.png"
+                                        />
+                                        <source
+                                            media="(max-width: 767px)"
+                                            srcset="diagnostics/ultra_surface organs772.png"
+                                        />
+                                        <source
+                                            media="(max-width: 1199px)"
+                                            srcset="diagnostics/ultra_surface organs1150.png"
+                                        />
+                                        <img
+                                            class="project_image"
+                                            src="diagnostics/ultra_surface organs1150.png"
+                                            alt="УЗД поверхностно-расположенных органов"
+                                        />
+                                    </picture>
+                                    <h3 class="project__title">ЭКСПРОМЕД "Ультразвуковая диагностика заболеваний поверхностно-расположенных органов</h3>
+                                    <a class=project_link href="">Подробнее →</a>
+                                    </li>
+                                <li class="project">
+                                    <picture>
+                                        <source
+                                            media="(max-width: 320px)"
+                                            srcset="diagnostics/Ultrasound320.png"
+                                        />
+                                        <source
+                                            media="(max-width: 480px)"
+                                            srcset="diagnostics/Ultrasound480.png"
+                                        />
+                                        <source
+                                            media="(max-width: 767px)"
+                                            srcset="diagnostics/Ultrasound772.png"
+                                        />
+                                        <source
+                                            media="(max-width: 1199px)"
+                                            srcset="diagnostics/Ultrasound1150.png"
+                                        />
+                                        <img
+                                            class="project_image"
+                                            src="diagnostics/Ultrasound1150.png"
+                                            alt="Ультразвук поверхностных органов онлайн"
+                                        />
+                                    </picture>
+                                    <h3 class="project__title">ЭКСПРОМЕД "УЗИ заболеваний поверхностно-расположенных органов</h3>
+                                    <a class=project_link href="">Подробнее →</a>
+                                    <a href="#diplom" class="full-width-button"
+                                    >Смотреть все компетенции</a>
+                                </li>
+                            </ul>
+                </section>
+                    
+                    <div class="container-black">
+                        <section class="section-long section-service">
+                            <h2   id="services">Услуги</h2>
+                            <ul class="services">
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="services/lechebni.jpg" alt="Лечебный массаж">
+                                    <div class="service__price">от 3000₽</div>
+                                    <div class="service__title">Лечебный массаж</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="services/teip.jpg" alt="Тейпирование">
+                                    <div class="service__price">от 500₽</div> 
+                                    <div class="service__title">Тейпирование</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="services/face.jpg" alt="Массаж лица">
+                                    <div class="service__price">от 3500₽</div> 
+                                    <div class="service__title">Массаж лица</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="services/child.png" alt="Детсчкий массаж">
+                                    <div class="service__price">от 1500₽</div>
+                                    <div class="service__title">Детский массаж</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="services/wrapping.png" alt="Обертывание">
+                                    <div class="service__price">от 3000₽</div>
+                                    <div class="service__title">Обертывание</div>
+                                </li>
+                                <li class="service">
+                                    <img
+                                    class="service_image"
+                                    src="services/komplex.jpg" alt="Комплексный массаж">
+                                    <div class="service__price">от 6000₽</div>
+                                    <div class="service__title">Комплексный массаж</div>
+                                </li>
+                            </ul>
+                                <button class="js-btn full-width-button full-width-button_inverted">Заказать услугу</button>
+                        </section>    
+                    </div>
+
+                    <section class="section-long section-reviews">
+                        <h2 id="reviews">отзывы</h2> 
+                        <ul class="reviews">
+                            <li class="review">
+                                <div class="review__title">Ольга, 77 лет</div>
+                                <div class="review__text">
+                                    Зарядка, дорожка, тренажер, валики, мячики – все это труд! И я пошла шаг за шагом с палочками 
+                                    по квартире, а потом и на улицу. Занялась скандинавской ходьбой! Теперь я Живу! Радуюсь! 
+                                    Я счастлива! Благодарю! Каждую неделю также продолжаем Массаж! Благодарю! Я желаю каждому 
+                                    встретить такого Своего Врача, Человека, Друга! 
+
+                                </div>    
+                            </li>
+                            <li class="review">
+                                <div class="review__title">Регина, 24 лет</div>
+                                <div class="review__text">
+                                    Хочу поблагодарить Вас за Вашу чуткость и тепло, за Ваше умение правильно 
+                                    слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! 
+                                    Я даже не надеялась, что за такой короткий срок я смогу избавиться от психосоматики и настроить свою программу профилактики тела.
+                                    С удовольствием буду ходить к Вам на постоянной основе. Благодарю!
+
+                                </div>    
+                            </li>
+                            <li class="review">
+                                <div class="review__title">Виолетта, 29 лет</div>
+                                <div class="review__text">
+                                    Решила поделиться своей радостью! Дать отзыв! О замечательном человеке, Резеде Римовне! Она врач, 
+                                    которого я встретила на своем пути. Думающая. Любит учиться и помогать людям! Когда мы встретились у меня был 
+                                    сложный диагноз: Остеопороз. Инфаркты. Последний обширный. Поставили стенды три штуки. Время «ковидное». 
+                                    Резеда взяла меня на массаж тела. Раньше мне говорили врачи: «На море нельзя, массаж нельзя, кости могут рассыпаться».
+                                    Процесс шел не в мою сторону. Я благодарю, что мы встретились! Она меня подняла! Приезжала ко мне каждую неделю. 
+                                    Я выполняла все ее рекомендации! Спасибо! 
+
+                                </div>    
+                            </li>
+                        </ul>       
+                    </section>
+                
+                    <section class="section-full section-nopadd">
+                            <div class="gallery">
+                                <div class="gallery__title-wrapper"> 
+                                    <div class="container">    
+                                        <p class="gallery__title" id="diplom">Мои компетенции</p>
+                                    </div>
+                                </div>    
+                                    
+                                <div class="gallery__controls-wrapper">
+                                    <div class="container">
+                                        <div class="gallery__controls">
+                                            <batton class="gallery__prev"></batton>
+                                            <batton class="gallery__next"></batton>
+                                        </div>    
+                                    </div>
+                                </div>
+                                
+                                    <div class="gallery__slide gallery__slide-active">
+                                                <picture>
+                                                    <source media="(max-width: 320px)" srcset="gallery/diplom320.png">
+                                                    <source media="(max-width: 480px)" srcset="gallery/diplom480.png">
+                                                    <source media="(max-width: 767px)" srcset="gallery/diplom768.png">
+                                                    <source media="(max-width: 1199px)" srcset="gallery/diplom1000.png">
+                                                    <img class="gallery__image" src="gallery/diplom1000.png" alt="Диплом врача"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">
+                                                          Диплом врача по специальности "Педиатрия"
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                                <picture>
+                                                    <source media="(max-width: 320px)" srcset="gallery/course2003__320.png">
+                                                    <source media="(max-width: 480px)" srcset="gallery/course2003__480.png">
+                                                    <source media="(max-width: 767px)" srcset="gallery/course2003__768.png">
+                                                    <source media="(max-width: 1199px)" srcset="gallery/course2003__1000.png">
+                                                    <img class="gallery__image" src="gallery/course2003__1000.png" alt="Свидетельство массажиста 2003"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">Свидетельство о прохождении курса медицинского массажа</p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                                <picture>
+                                                    <source media="(max-width: 320px)" srcset="gallery/lymphatic drainage_320.png">
+                                                    <source media="(max-width: 480px)" srcset="gallery/lymphatic drainage_480.png">
+                                                    <source media="(max-width: 767px)" srcset="gallery/lymphatic drainage_768.png">
+                                                    <source media="(max-width: 1199px)" srcset="gallery/lymphatic drainage_1000.png">
+                                                    <img class="gallery__image" src="gallery/lymphatic drainage_1000.png" alt="Свидетельство о лимфо-дренажном массаже"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">Сертификат: "Лимфодренажный массаж"</p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                                <picture>
+                                                    <source media="(max-width: 320px)" srcset="gallery/spanish320.png">
+                                                    <source media="(max-width: 480px)" srcset="gallery/spanish480.png">
+                                                    <source media="(max-width: 767px)" srcset="gallery/spanish768.png">
+                                                    <source media="(max-width: 1199px)" srcset="gallery/spanish1000.png">
+                                                    <img class="gallery__image" src="gallery/spanish1000.png" alt="Свидетельство о прохождении курса испанского массажа"/>
+                                                </picture>
+                                                <div class="gallery__text-wrapper">
+                                                    <div class="container">
+                                                        <p class="gallery__text">Сертификат: "Испанский расслабляющий массаж</p>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/lipolytics320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/lipolytics480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/lipolytics772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/lipolytics1000.png">
+                                            <img class="gallery__image" src="gallery/lipolytics1000.png" alt="Сертификат о прохождении курса Липолитики по лицу и телу"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">Сертификат: "Липолитики по лицу и телу"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/mesotherapy320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/mesotherapy480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/mesotherapy772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/mesotherapy1000.png">
+                                            <img class="gallery__image" src="gallery/mesotherapy1000.png" alt="Мезотерапия в практике косметолога - эстетиста"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">Сертификат: "Мезотерапия в практике косметолога - эстетиста"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/modeling a figure320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/modeling a figure480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/modeling a figure772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/modeling a figure1000.png">
+                                            <img class="gallery__image" src="gallery/modeling a figure1000.png" alt="Скульптурирующий массаж. Моделирование фигуры"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">"Скульптурирующий массаж. Моделирование фигуры"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/power lines320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/power lines480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/power lines772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/power lines1000.png">
+                                            <img class="gallery__image" src="gallery/power lines1000.png" alt="Силовые линии. Телесно-ориентированное консультирование"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">"Силовые линии. Телесно-ориентированное консультирование"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/vector320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/vector480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/vector772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/vector1000.png">
+                                            <img class="gallery__image" src="gallery/vector1000.png" alt="Векторный массаж"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">Сертификат: "Векторный массаж"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/vector_kinesio320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/vector_kinesio480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/vector_kinesio772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/vector_kinesio1000.png">
+                                            <img class="gallery__image" src="gallery/vector_kinesio1000.png" alt="Векторный массаж  Кинезиологический массаж"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">Сертификат: "Векторный массаж.  Кинезиологический массаж"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/wrapping320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/wrapping480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/wrapping772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/wrapping1000.png">
+                                            <img class="gallery__image" src="gallery/wrapping1000.png" alt="Обертываение. Профессиональный уход за кожей"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">"Обертываение. Профессиональный уход за кожей"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/Aravia320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/Aravia480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/Aravia772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/Aravia1000.png">
+                                            <img class="gallery__image" src="gallery/Aravia1000.png" alt="Массаж - уход для лица Аравия профессионал"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">Сертификат: "Массаж - уход для лица Аравия профессионал"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/shamsi320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/shamsi480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/shamsi772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/shamsi1000.png">
+                                            <img class="gallery__image" src="gallery/shamsi1000.png" alt="Скульптурный и глубокий фасциальный массаж"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">"Скульптурный и глубокий фасциальный массаж"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/Delis320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/Delis480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/Delis772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/Delis1000.png">
+                                            <img class="gallery__image" src="gallery/Delis1000.png" alt="Неотложные мероприятия в кабинете косметолога"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">"Неотложные мероприятия в кабинете косметолога"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/Speech therapy320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/Speech therapy480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/Speech therapy772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/Speech therapy1000.png">
+                                            <img class="gallery__image" src="gallery/Speech therapy1000.png" alt="Логопедический массаж"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">Удостоверение: "Логопедический массаж"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery__slide">
+                                        <picture>
+                                            <source media="(max-width: 320px)" srcset="gallery/diplom_taping320.png">
+                                            <source media="(max-width: 480px)" srcset="gallery/diplom_taping480.png">
+                                            <source media="(max-width: 767px)" srcset="gallery/diplom_taping772.png">
+                                            <source media="(max-width: 1199px)" srcset="gallery/diplom_taping1000.png">
+                                            <img class="gallery__image" src="gallery/diplom_taping1000.png" alt="Кинезиологическое тейпирование"/>
+                                        </picture>
+                                        <div class="gallery__text-wrapper">
+                                            <div class="container">
+                                                <p class="gallery__text">Сертификат: "Кинезиологическое тейпирование"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </section>
+                    <section class="section-long">
+                        <h2 id="contacts">Контакты</h2>
+                        <div class="contacts-place">
+                            <div class="contacts__phone-wrapper">
+                                <a class="contacts__phone" href="tel:+79358954535">
+                                        +7 987 607-25-46</a>
+                            </div>
+                            <div class="contacts__telegram-wrapper">
+                                <a class="contacts__telegram" href="https://t.me/Bakirovarezeda" target="_blank">
+                                    Bakirova Rezeda</a>
+                            </div>
+                            <div class="contacts__email-wrapper">
+                                <a class="contacts__email" href="mailto:saifullina.srr@yandex.ru" target="_blank">
+                                        saifullina.srr@yandex.ru</a>
+                            </div>
+                        </div>
+                    </section> 
+                </div>
+            </main>  
+            <footer class="container-black">
+                    <nav class="footernav">
+                            <a class="footernav__link" href="#about-us">обо мне</a>
+                            <a class="footernav__link" href="#projects">диагностика</a>
+                            <a class="footernav__link" href="#services">услуги</a>
+                            <a class="footernav__link" href="#contacts">контакты</a>
+                    </nav>
+                
+                <p class="footer__title">
+                    Бакирова Резеда Римовна 	&#8212 2024
+                </p>
+
+            </footer>
+             
+     <script src="burger.js"></script>   
+     <script src="gallery.js"></script>   
+     <script src="popup.js"></script>
+     
+    </body>
+</html>

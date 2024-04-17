@@ -1,0 +1,196 @@
+.contacts__phone-wrapper::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../contacts/phone.png");
+}
+
+.contacts__phone-wrapper {
+    margin-top: 24px;
+    margin-left: -4px;
+}
+
+.contacts__email-wrapper {
+    margin-top: 24px;
+}
+
+.contacts__email-wrapper::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../contacts/mail.png");
+}    
+
+.contacts__telegram-wrapper {
+    margin-top: 24px;
+}
+
+.contacts__telegram-wrapper::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../contacts/telegram.png");
+}
+
+.contacts-place {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 75px;
+}
+
+.contacts__phone {
+    left: 5px;
+    top: 52px;
+}
+
+.contacts__phone,
+.contacts__telegram,
+.contacts__email
+{
+    position: relative;
+    font-size: 40px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+.contacts__email {
+    left: 3px;
+    top: 49px;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    letter-spacing: -2px;
+    opacity: 0.5;
+}
+
+.contacts__telegram {
+    left: 3px;
+    top: 49px;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    letter-spacing: -2px;
+    opacity: 1;
+}
+
+.contacts__phone:hover {
+    opacity: 0.5;
+}
+
+.contacts__email:hover {
+    opacity: 1;
+}
+
+@media (max-width: 1199px) {
+
+    .contacts-place {
+        margin-bottom: 37px; 
+        display: block;
+        width: 100%;
+    }
+   
+    .contacts__phone-wrapper,
+    .contacts__email-wrapper,
+    .contacts__telegram-wrapper
+    {
+        margin-top: 70px;
+    }
+
+    .contacts__phone,
+    .contacts__email,
+    .contacts__telegram
+    {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .contacts__phone {
+        top: 50px;
+        letter-spacing: -0.65px;
+    }
+
+    .contacts__email {
+        top: 37px;
+        letter-spacing: -1.65px;
+    }
+    .contacts__telegram {
+        top: 37px;
+        letter-spacing: -1.65px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .contacts-place {
+        margin-bottom: 37px; 
+        display: block;
+        width: 100%;
+    }
+
+    .contacts__phone,
+    .contacts__telegram,
+    .contacts__email
+    {
+        top: 39px;  
+        font-size: 25px;
+        line-height: 45.62px;
+    }
+
+    .contacts__phone-wrapper::before,
+    .contacts__telegram-wrapper::before,
+    .contacts__email-wrapper::before
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+.contacts__phone-wrapper::before {
+
+        background-image: url("../contacts/phone_small.png");
+    }
+.contacts__telegram-wrapper::before {
+        background-image: url("../contacts/telegram_small.png");
+    } 
+
+.contacts__email-wrapper::before {
+        background-image: url("../contacts/mail_small.png");
+    } 
+
+    .contacts__phone-wrapper {
+            margin-top: 23px;
+            margin-left: -6px;
+    }
+    
+    .contacts__email-wrapper {
+            margin-top: 60px; 
+    }
+
+    .contacts__email {
+            letter-spacing: -1.65px;
+            text-decoration: none;
+            opacity: 1;
+            border-bottom: 0;
+    }
+}
+
+
+
+
+

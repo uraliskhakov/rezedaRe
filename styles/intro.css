@@ -1,0 +1,50 @@
+
+.fotos {
+    margin-top: 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 11px;
+    row-gap: 81px;
+}
+
+.foto {
+    position: relative;
+    width: calc(50% - 5.5px); 
+}
+
+.fotos :first-child {
+    margin-top: 0;
+}
+
+.foto_image {
+    width: 100%;                      
+}
+
+@media (max-width: 1199px) {
+
+    .foto {
+        width: calc(50% - 5px); 
+    }  
+
+    .fotos {
+        column-gap: 10px;
+        row-gap: 80px;
+    }
+
+}
+
+@media (max-width: 767px){ 
+    .fotos {
+        flex-direction: column;
+        margin-top: 20px; 
+        row-gap: 57px;
+    }
+
+    .foto {
+        width: 100%; 
+    }
+
+    .foto_image {
+        margin-bottom: 10px;
+    }
+}
